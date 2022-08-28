@@ -52,9 +52,9 @@ body {
   font-size: 45px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 443px) {
   .selection {
-    font-size: 40px;
+    font-size: 30px;
   }
   
   .results {
@@ -68,5 +68,11 @@ body {
   }
   .result-selection.winner {
     font-size: 30px;
+  }
+}
+
+@media (max-width: 358px) {
+  .selection {
+    font-size: 18px;
   }
 }
